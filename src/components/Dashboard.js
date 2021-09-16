@@ -7,9 +7,9 @@ export default function Dashboard() {
     return (
         <div>
             <Paper className={mergeClasses.root}>
-                <Typogrphy variant="h5" component="h3">
+                <Typography variant="h5" component="h3">
                     This is a shet of paper
-                </Typogrphy>
+                </Typography>
 
             <Typography component="p">
                 Paper can be used to build surface
