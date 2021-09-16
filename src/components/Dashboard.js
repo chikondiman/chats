@@ -6,8 +6,28 @@ import { makeStyles } from '@material-ui/core/styles'
 
 const useStyles = makeStyles(theme => ({
     root: {
+        margin: '50px',
         padding: theme.spacing(3,2).Dashboard
     },
+    flex: {
+        display: 'flex'
+    },
+    topicsWindow: {
+        width: '30%',
+        height: '300px'
+    },
+    chatWindow: {
+        width: '70%',
+        height: '300px'
+    },
+    chatBox: {
+        width: '85%'
+        
+    },
+    button: {
+        width: '15%'
+        
+    }
 }));
 
 export default function Dashboard() {
@@ -16,14 +36,29 @@ export default function Dashboard() {
         <div>
            
             <Paper className={mergeClasses.root}>
-                <Typography variant="h5" component="h3">
-                    This is a sheet of paper
+                <Typography variant="h4" component="h4">
+                    Chat app
                 </Typography>
 
 
-            <Typography component="p">
-                Paper can be used to build surface
+            <Typography variant="h5" component="h5">
+               Topic placeholder
             </Typography>
+            <div className={classes.flex}>
+                <div className={classes.topicsWindows}>
+
+                </div>
+
+                <div className={classes.chatWindow}>
+
+                </div>
+
+            </div>
+
+            <div lassName={classes.flex}>
+
+
+            </div>
             </Paper>
         
         </div>
