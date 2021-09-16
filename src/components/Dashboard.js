@@ -10,6 +10,10 @@ export default function Dashboard() {
                 <Typogrphy variant="h5" component="h3">
                     This is a shet of paper
                 </Typogrphy>
+
+            <Typography component="p">
+                Paper can be used to build surface
+            </Typography>
             </Paper>
         
         </div>
