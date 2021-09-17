@@ -7,7 +7,7 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import Chip from '@material-ui/core/Chip';
-import Button from 'material-ui/core/Button';
+import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles(theme => ({
@@ -96,10 +96,10 @@ export default function Dashboard() {
             
             <TextField
              id="standard-name"
-             label="Name"
-             className={classes.textField}
-             value={values.name}
-             onChange={handleChange('name')}
+             label="Send a chat"
+             className={classes.chatBox}
+            //  value={values.name}
+            //  onChange={handleChange('name')}
              margin="normal"/>
             <Button variant="contained" color="primary">
                     Send
