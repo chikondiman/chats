@@ -101,7 +101,10 @@ export default function Dashboard() {
              className={classes.chatBox}
              value={textValue}
              onChange={e => changeTextValue(e.target.value)}
-             margin="normal"/>
+             margin="normal"
+             padding="10px"/>
+             
+
             <Button variant="contained" color="primary">
                     Send
             </Button>
