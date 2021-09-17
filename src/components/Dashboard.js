@@ -40,6 +40,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Dashboard() {
     const classes = useStyles();
+    const [textValue, changeTextValue] = React.useState('');
     return (
         <div>
            
@@ -98,8 +99,8 @@ export default function Dashboard() {
              id="standard-name"
              label="Send a chat"
              className={classes.chatBox}
-            //  value={values.name}
-            //  onChange={handleChange('name')}
+             value={textValue}
+             onChange={e => changeTextValue(e.target.value)}
              margin="normal"/>
             <Button variant="contained" color="primary">
                     Send
