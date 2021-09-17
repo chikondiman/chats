@@ -93,14 +93,25 @@ export default function Dashboard() {
             </div>
 
             <div className={classes.flex}>
+            
+            <TextField
+             id="standard-name"
+             label="Name"
+             className={classes.textField}
+             value={values.name}
+             onChange={handleChange('name')}
+             margin="normal">
+            <Button variant="contained" color="primary">
+                    Send
+            </Button>
+
+
             <div className={classes.chatBox}>
             </div>
             <div className={classes.topicsWindow}>
             
             </div>
-            <Button variant="contained" color="primary">
-                    Send
-            </Button>
+     
 
 
             </div>
