@@ -97,6 +97,9 @@ export default function Dashboard() {
             <div className={classes.topicsWindow}>
             
             </div>
+            <Button variant="contained" color="primary">
+                    Send
+            </Button>
 
 
             </div>
