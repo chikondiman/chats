@@ -100,7 +100,7 @@ export default function Dashboard() {
              className={classes.textField}
              value={values.name}
              onChange={handleChange('name')}
-             margin="normal">
+             margin="normal"/>
             <Button variant="contained" color="primary">
                     Send
             </Button>
