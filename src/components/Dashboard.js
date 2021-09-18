@@ -12,7 +12,7 @@ import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles(theme => ({
     root: {
-        margin: '50px',
+        margin: '30px',
         padding: theme.spacing(3,2).Dashboard
     },
     flex: {
@@ -33,7 +33,8 @@ const useStyles = makeStyles(theme => ({
         
     },
     button: {
-        width: '15px'
+        width: '15px',
+        height: '5px'
         
     }
 }));
