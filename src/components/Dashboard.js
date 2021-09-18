@@ -106,7 +106,7 @@ export default function Dashboard() {
              margin="normal"
              padding="10px"/>
              
-            <Button  color="primary">
+            <Button variant="contained" color="primary">
                     Send
             </Button>
 
