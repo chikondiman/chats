@@ -96,15 +96,7 @@ export default function Dashboard() {
 
             <div className={classes.flex}>
             
-            <TextField
-             id="standard-name"
-             label="Send a chat"
-             className={classes.chatBox}
-             value={textValue}
-             onChange={e => changeTextValue(e.target.value)}
-             margin="normal"
-             padding="10px"/>
-             
+     
 
             <Button variant="contained" color="primary">
                     Send
