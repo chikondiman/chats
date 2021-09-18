@@ -7,8 +7,11 @@ function reducer(state, action) {
  switch(action.type) {
     case 'RECEIVE_MESSAGE':
      return {
-
-     }
+        ...state.
+        [topic]: [
+            ...state[topic],
+        {from, msg}
+     ]
  }
 
 
