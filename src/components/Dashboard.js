@@ -110,7 +110,6 @@ export default function Dashboard() {
                     Send
             </Button>
 
-            <Button> yup </Button>
 
 
             <div className={classes.chatBox}>
