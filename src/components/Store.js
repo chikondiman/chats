@@ -3,6 +3,15 @@ import React from 'react'
 const CTX = React.createContext();
 
 
+function reducer(state, action) {
+ switch(action.type) {
+    case 'RECEIVE_MESSAGE':
+     return {
+
+     }
+ }
+
+
 export default function Store()
 {
 
