@@ -69,7 +69,7 @@ export default function Dashboard() {
                         {
                             topics.map(topic => (
 
-                                <ListItem key={topic}button>
+                                <ListItem onClick={e=>changeActiveTopic(e.target.innerText)} key={topic}button>
                   
                             <ListItemText primary={topic}>
 
