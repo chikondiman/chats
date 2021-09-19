@@ -14,6 +14,10 @@ function reducer(state, action) {
      ]
  }
 
+default:
+    return state
+    }
+}
 
 export default function Store()
 {
