@@ -48,6 +48,8 @@ export default function Dashboard() {
 
     console.log({allChats});
 
+    const topics = Object.keys(allChats);
+
     return (
         <div>
            
@@ -89,7 +91,7 @@ export default function Dashboard() {
                                     <div className={classes.flex} key={chat.from}>
 
                                             <Chip label={chat.from} className={classes.chip}/>
-                                            <Typography variant='p'></Typography>
+                                            <Typography variant='body1' gutterBottom></Typography>
                                         </div>
 
                             ))
