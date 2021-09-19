@@ -4,7 +4,9 @@ const CTX = React.createContext();
 
 const initState = {
 
-    general:
+    general: [
+        {msg}, {msg}, {msg}, {newmsg}
+    ]
 }
 
 
