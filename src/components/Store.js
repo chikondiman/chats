@@ -5,10 +5,11 @@ const CTX = React.createContext();
 const initState = {
 
     general: [
-        {from: 'jayla', msg: 'hey baby'}, {from: 'juni', msg: 'belly rubs!'}, {msg}, {newmsg}
+        {from: 'jayla', msg: 'hey baby'}, {from: 'juni', msg: 'belly rubs!'}
     ],
 
-    topic2: [
+    topic2: [ 
+        {from: 'jayla', msg: 'hey baby'}, {from: 'juni', msg: 'belly rubs!'}
 
     ]
 }
