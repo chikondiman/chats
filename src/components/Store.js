@@ -2,6 +2,11 @@ import React from 'react'
 
 const CTX = React.createContext();
 
+const initState = {
+
+    general:
+}
+
 
 function reducer(state, action) {
  switch(action.type) {
@@ -16,6 +21,7 @@ function reducer(state, action) {
 
 default:
     return state
+
     }
 }
 
