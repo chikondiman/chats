@@ -37,7 +37,7 @@ const useStyles = makeStyles(theme => ({
         width: '15px',
         height: '5px'
         
-    }
+    } 
 }));
 
 export default function Dashboard() {
@@ -64,7 +64,7 @@ export default function Dashboard() {
                 <div className={classes.topicsWindows}>
                     <List>
                         {
-                            ['topic'].map(topic => (
+                            topics.map(topic => (
 
                                 <ListItem key={topic}button>
                   
