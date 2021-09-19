@@ -6,6 +6,10 @@ const initState = {
 
     general: [
         {msg}, {msg}, {msg}, {newmsg}
+    ],
+
+    topic2: [
+        
     ]
 }
 
