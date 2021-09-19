@@ -44,6 +44,7 @@ export default function Dashboard() {
     const classes = useStyles();
 
     const [allChats] = React.useContext(CTX);
+    const [activeTopic, changeActiveTopic] = React.useState(topics[0])
     const [textValue, changeTextValue] = React.useState('');
 
     console.log({allChats});
@@ -60,7 +61,7 @@ export default function Dashboard() {
 
 
             <Typography variant="h5" component="h5">
-               Topic placeholder
+               {activeTopic}
             </Typography>
             <div className={classes.flex}>
                 <div className={classes.topicsWindows}>
