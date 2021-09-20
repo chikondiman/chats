@@ -39,14 +39,15 @@ const useStyles = makeStyles(theme => ({
         
     } 
 }));
-const [allChats] = React.useContext(CTX);
-const classes = useStyles();
-const topics = Object.keys(allChats);
-
 
 export default function Dashboard() {
 
  
+    const [allChats] = React.useContext(CTX);
+const classes = useStyles();
+const topics = Object.keys(allChats);
+
+
   
     const [activeTopic, changeActiveTopic] = React.useState(topics[0])
     const [textValue, changeTextValue] = React.useState('');
