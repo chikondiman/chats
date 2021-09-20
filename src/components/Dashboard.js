@@ -42,7 +42,7 @@ const useStyles = makeStyles(theme => ({
 
 export default function Dashboard() {
 
-    const classes = useStyles();
+const classes = useStyles();
 
 const [allChats] = React.useContext(CTX);
 
