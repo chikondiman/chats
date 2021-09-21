@@ -36,9 +36,15 @@ default:
     }
 }
 
+
+let socket;
+
 export default function Store(props)
 {
 
+if (!socket) {
+    socket = io(':3001')
+}
     const reducerHook = React.useReducer(reducer, initState)
     return (
         <CTX.Provider value={reducerHook}>
