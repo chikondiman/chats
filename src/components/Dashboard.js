@@ -62,7 +62,7 @@ const topics = Object.keys(allChats);
            
             <Paper className={classes.root}>
                 <Typography variant="h4" component="h4">
-                    Chat 
+                    Chatter APP 
                 </Typography>
 
 
