@@ -130,7 +130,7 @@ const topics = Object.keys(allChats);
                     changeTextValue('');
                 }}
                 >
-                    Send
+                    Send Chat
             </Button>
 
 
